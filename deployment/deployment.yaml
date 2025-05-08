@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: krishnasravi/user-service:v1.1
+        image: krishnasravi/user-service:v1.2
         ports:
         - containerPort: 8080
         envFrom:
